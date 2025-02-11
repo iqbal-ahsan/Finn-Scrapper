@@ -1,5 +1,8 @@
 # This repo can be used as base template for any Airflow project. It contains the following:
 
+The goal of this project is to build a data pipeline that scrapes data from a website, processes it,
+and stores it in a MongoDB database using Python, Docker, and Apache Airflow.
+
 * 1. Dockerfile: To build the Airflow image
 * 2. docker-compose.yml: To run the Airflow container
 * 3. dags/: Directory to store the DAGs
